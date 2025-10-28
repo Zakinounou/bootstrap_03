@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Store Landing Page</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="bg-dark text-white py-4 navbar">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div class="d-flex">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1677852356095-51e64184cf25?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=871"
+            alt="logo-img" class="logo-img"
+          />
+          <h1 class="logo">MyStore</h1>
+        </div>
+        <!-- nav menu -->
+        <nav>
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="text-center d-flex justify-content-center align-items-center y-5 hero"
+    >
+      <div class="hero-container">
+        <h2 class="text-center">TOP DESTINATIONS</h2>
+        <p class="text-center">Handpicked places for your next trip</p>
+        <a href="#products"
+          ><button class="btn btn-warning">Shop Now</button></a
+        >
+      </div>
+    </section>
+
+    <!-- Product Section -->
+    <section id="products" class="py-5 bg-dark">
+      <h2 class="text-center mb-4">Featured Products</h2>
+
+      <div class="container">
+        <div class="row g-4">
+          <!-- Product Card 1 -->
+          <div class="col-md-6 col-lg-3">
+            <div class="card h-100">
+              <img
+                src="https://tse4.mm.bing.net/th/id/OIP.H_enZ1aHAwo_3xHbQ25R9QHaHa?w=800&h=800&rs=1&pid=ImgDetMain&o=7&rm=3"
+                class="card-img-top"
+                alt="Product 1"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Product Name</h5>
+                <p class="card-text">Brief description of the product.</p>
+                <a href="#" class="btn btn-warning">Shop Now</a>
+              </div>
+            </div>
+          </div>
+          <!-- Repeat for 3 more cards -->
+          <!-- Product Card 2 -->
+          <div class="col-md-6 col-lg-3">
+            <div class="card h-100">
+              <img
+                src="https://www.vmapromotionalproducts.com.au/media/2025/08/p2589010-312f428e5f241aa0ccb41f270feff2f7563d5132.jpg"
+                class="card-img-top"
+                alt="Product 2"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Product Name</h5>
+                <p class="card-text">Brief description of the product.</p>
+                <a href="#" class="btn btn-warning">Shop Now</a>
+              </div>
+            </div>
+          </div>
+          <!-- Product Card 3 -->
+          <div class="col-md-6 col-lg-3">
+            <div class="card h-100">
+              <img
+                src="https://tse1.mm.bing.net/th/id/OIP.plPO4-8WXmxj9MkaUIthAQHaHa?rs=1&pid=ImgDetMain&o=7&rm=3"
+                class="card-img-top"
+                alt="Product 3"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Product Name</h5>
+                <p class="card-text">Brief description of the product.</p>
+                <a href="#" class="btn btn-warning">Shop Now</a>
+              </div>
+            </div>
+          </div>
+          <!-- Product Card 4 -->
+          <div class="col-md-6 col-lg-3">
+            <div class="card h-100">
+              <img
+                src="https://th.bing.com/th?id=OIF.b6RNwpmkFdzDwd%2bDRIQ1cg&rs=1&pid=ImgDetMain&o=7&rm=3"
+                class="card-img-top"
+                alt="Product 4"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Product Name</h5>
+                <p class="card-text">Brief description of the product.</p>
+                <a href="#" class="btn btn-warning">Shop Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark">
+      <div class="container">
+        <h2 class="text-center mb-4">Get in Touch</h2>
+        <form>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+            <div class="col-md-6">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div class="col-12">
+              <textarea
+                class="form-control"
+                rows="4"
+                placeholder="Your Message"
+                required
+              ></textarea>
+            </div>
+            <div class="col-12 text-center">
+              <button type="submit" class="btn btn-warning px-5 btn-custom">
+                Send Message
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center py-3" id="contact">
+      <p>&copy; 2025 MyStore. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
